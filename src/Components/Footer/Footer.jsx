@@ -14,7 +14,7 @@ const Footer = () => {
             and 1 year work experience at Publicis Sapient.
           </p>
         </div>
-        <div className="footer-top-rigth">
+        <div className="footer-top-right">
           <div className="footer-email-input">
             <img src={user_icon} alt="USER ICON" />
             <input type="email" placeholder=" Enter your email" />
@@ -22,12 +22,14 @@ const Footer = () => {
           <div className="footer-subscribe">Subscribe</div>
         </div>
       </div>
+
       <hr />
+
       <div className="footer-bottom">
-        <p className="footer-bootom-left">
+        <p className="footer-bottom-left">
           &copy; 2024 Rohit Nautiyal. All rights reserved
         </p>
-        <div className="footer-bootom-right">
+        <div className="footer-bottom-right">
           <p> Term of Services </p>
           <p> Privacy policy </p>
           <p> Connect with me</p>
