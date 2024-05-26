@@ -22,13 +22,12 @@
 }
 .mywork-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   gap: 40px;
+  
 }
 .mywork-container img {
   box-sizing: border-box;
-  width: 419px;
-  height: 280px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -53,4 +52,34 @@
 .mywork-showmore:hover {
   gap: 30px;
   transition: 0.6;
+}
+@media (max-width: 768px) {
+  .mywork {
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+  .mywork-title h1 {
+    padding: 0;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .mywork-title img {
+    width: 130px;
+    margin-right: -20px;
+  }
+  .mywork-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .mywork-container img {
+    width: 100%;
+    height: 100%;
+  }
+  .mywork-showmore {
+    padding: 20px 40px;
+    font-size: 18px;
+    margin: 50px auto;
+    cursor: pointer;
+  }
 }
