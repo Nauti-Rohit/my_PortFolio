@@ -8,6 +8,14 @@
   display: flex;
   justify-content: space-between;
 }
+.footer-top-left{
+  display: flex;
+}
+.footer-top-left img{
+  height: 100px;
+  width: 150px;
+
+}
 .footer-top-left p {
   font-size: 20px;
   max-width: 400px;
